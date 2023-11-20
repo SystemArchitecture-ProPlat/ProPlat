@@ -1,0 +1,139 @@
+#borderline{
+    float: left;
+    font-size: 30px;
+    margin: 0 30px;
+}
+.projectpost_input{
+    border: none;
+    outline: none;
+    width: 480px;
+    margin-top: 13px;
+    margin-left: 20px;
+    float: left;
+}
+.projectpost_textarea{
+    width: 510px;
+    height: 275px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+.projectpost_img_center{
+    margin: 20px 0;
+}
+.projectpost_proplat-img{
+    width: 1000px;
+    margin: auto;   /*중앙정렬*/
+    display: block;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+.projectpost_main{
+    width: 800px;
+    height: 1000px;
+    margin: 50px auto 50px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #C8D9FA;
+}
+.projectpost_white-line{
+    width: 650px;
+    height: 2px;    /* 선 두께 */
+    margin: 30px auto 40px;    /* 위쪽 30, 좌우 가운데 정렬, 아래 40*/
+    background-color: #FFF;
+}
+.projectpost_form{
+    overflow: hidden;
+    text-align: center;
+}
+.projectpost_form_label{
+    width: 80px;
+    text-align: left;
+    font-size: 13px;
+}
+.projectpost_step-num{
+    margin: 5px 0;
+    font-size: 13px;
+    float: left;
+    display: block;
+    font-weight: bold;
+    clear: left;    /* 이전 요소의 부동(floating) 해제 */
+}
+.projectpost_form_input-block{
+    padding: 10px 0;    /*flex의 margin 겹침 이슈로 padding 설정*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: left;    /* projectpost_step-num 클래스 다음에 다음 줄로 이동 */
+}
+.projectpost_whitebox_long{
+    display: inline-block;
+    text-align: center;
+    width: 530px;
+    height: 46px;
+    margin-left: 45px;
+    border-radius: 20px;
+    background-color: white;
+}
+.projectpost_whitebox_big{
+    display: inline-block;
+    text-align: center;
+    width: 530px;
+    height: 300px;
+    margin-left: 45px;
+    border-radius: 20px;
+    background-color: white;
+}
+.projectpost_form_part{
+    margin: 15px 7px;
+    background-color: white;
+    float: left;
+    color: #bababa;
+    font-size: 13px;
+}
+.projectpost_left{
+    margin: 15px 10px;
+    font-size: 13px;
+    float: left;
+    text-align: center;
+}
+.projectpost_month{
+    outline: none;
+    border-color: #e8e8e8;
+    width: 40px;
+    height: 20px;
+    margin-top: 14.5px;
+    margin-left: 50px;
+    padding-right: 5px;
+    text-align: right;
+    float: left;
+}
+.projectpost_day{
+    outline: none;
+    border-color: #e8e8e8;
+    width: 40px;
+    height: 20px;
+    margin-top: 14.5px;
+    margin-left: 20px;
+    padding-right: 5px;
+    float: left;
+    text-align: right;
+}
+.projectpost_form_post{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+}
+.projectpost_form_file-upload{
+    display: none;
+}

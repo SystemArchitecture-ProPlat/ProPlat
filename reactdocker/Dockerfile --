@@ -1,0 +1,19 @@
+FROM  node:18-alpine
+
+WORKDIR /home/ec2-user/lesser-panda/app
+
+ENV PATH /home/ec2-user/lesser-panda/lesserpanda-frontend/node_modules/.bin:$PATH
+
+ADD package.json /home/ec2-user/lesser-panda/lesserpanda-frontend/package.json
+
+RUN npm install
+
+RUN npm install react-scripts@3.4.1 -g
+
+CMD ["npm","start"]
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+/*placeholder 색상 변경*/
+::-webkit-placeholder {
+    color: #bababa;
+}
+
+::-moz-placeholder {
+    color: #bababa;
+}
+
+::-ms-placeholder {
+    color: #bababa;
+}
+
+::placeholder {
+    color: #bababa;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 20px;
+    float: left;
+}
+
+.signup_main {
+    width: 800px;
+    height: 1330px;
+    margin: 50px auto 50px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #C8D9FA;
+}
+
+.signup_main2 {
+    width: 800px;
+    /*height: 1500px;*/
+    margin: 50px auto 50px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #C8D9FA;
+}
+
+.signup_txt-line{
+    width: 110px;
+    height: 2.5px;    /* 선 두께 */
+    margin: 8px auto 60px;    /* 위쪽 10, 좌우 가운데 정렬, 아래 50*/
+    background-color: #000;
+}
+
+.signup_txt-lineProjectMain{
+    width: 110px;
+    height: 2.5px;    /* 선 두께 */
+    margin: 8px auto 20px;    /* 위쪽 10, 좌우 가운데 정렬, 아래 50*/
+    background-color: #000;
+}
+
+.signup_white-line {
+    width: 600px;
+    height: 1px; /* 선 두께 */
+    margin: 30px auto 50px; /* 위쪽 30, 좌우 가운데 정렬, 아래 50*/
+    background-color: #FFF;
+}
+
+.signup_form{
+    overflow: hidden;
+    text-align: center;
+}
+.signup_form_input-block {
+    height: 100px;
+    margin: 0 auto; /* 수직 중앙 정렬하기 */
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup_form_input-blockIntro{
+    height: 300px;
+    margin: 0 auto 40px auto;
+    /* 수직 중앙 정렬하기 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup_form_input-whiteBox{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    height: 46px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+.signup_form_input-whiteBoxIntro{
+    /*display: inline-block;*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+.signup_form_label{
+    display: inline-block;
+    text-align: right;
+    font-size: 13px;
+    width: 87px;
+}
+.signup_required{
+    color: red;
+    margin-left: 15px;
+}
+#signup_email{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#signup_form_email_txt{
+    width: 140px;
+    margin-top: 0px;
+    margin-right: 15px;
+}
+#signup_domain-list{
+    margin-left: 15px;
+    width: 140px;
+}
+
+.signup_form_part{
+   margin: 13px 15px 13px 15px;
+   background-color: white;
+   float: left;
+   color: #bababa;
+}
+
+ .signup_agreement{
+    text-align: center;
+ }
+
+ .signup_line{
+    display: inline-block;
+    width: 120px;
+    height: 1px;
+    margin: 5px 40px;
+    background-color: #000;
+}

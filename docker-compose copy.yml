@@ -1,0 +1,50 @@
+version: '3'
+
+services:
+  database-mysql:
+    container_name: database-mysql
+    image: mysql/mysql-server:8.0
+
+    environment:
+      MYSQL_ROOT_PASSWORD: 'cjb0402^^'
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_DATABASE: 'simple'
+      TZ: Asia/Seoul
+
+    volumes:
+      - ./mysql-init.d:/docker-entrypoint-initdb.d
+
+    ports:
+      - '3306:3306'
+
+    command:
+      - '--character-set-server=utf8mb4'
+      - '--collation-server=utf8mb4_unicode_ci'  
+  application:
+    container_name: app-simple
+    restart: always
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    
+    ports:
+      - '8080:8080'
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://database-mysql:3306/simple?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: "root"
+      SPRING_DATASOURCE_PASSWORD: "cjb0402^^"  
+
+    depends_on:
+      - database-mysql
+
+  web:
+    container_name: docker-compose-front
+    restart: on-failure
+    build:
+      context: ./lesserpanda-frontend/
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - application
+  
