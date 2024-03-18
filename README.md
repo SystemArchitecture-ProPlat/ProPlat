@@ -14,11 +14,11 @@
 
 ### 요구 사항
 
-![image](https://github.com/SystemArchitecture-ProPlat/ProPlat/assets/127479677/30f72985-d6e3-47a1-9bf0-59cd861ff550)
+<img src="https://github.com/SystemArchitecture-ProPlat/ProPlat/assets/127479677/30f72985-d6e3-47a1-9bf0-59cd861ff550" width="65%" height="75%" align="center">
 
 ### 서버 구조도
 
-![image](https://github.com/SystemArchitecture-ProPlat/Proplat_Back/assets/127479677/9cfbe5db-1640-438c-9d94-17695815ca13)
+<img src="https://github.com/SystemArchitecture-ProPlat/Proplat_Back/assets/127479677/9cfbe5db-1640-438c-9d94-17695815ca13" width="65%" height="75%" align="center">
 
 ### 사용 기술, 개발 환경
 
