@@ -34,7 +34,7 @@
 
 ### ERD
 
-![image](https://github.com/SystemArchitecture-ProPlat/Proplat_Back/assets/127479677/11eb6e17-facb-4069-91a4-4f1bcdb017db)
+<img src="https://github.com/SystemArchitecture-ProPlat/Proplat_Back/assets/127479677/11eb6e17-facb-4069-91a4-4f1bcdb017db" width="65%" height="75%" align="center">
 
 
 ### 프로젝트 목표
