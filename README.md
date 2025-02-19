@@ -2,7 +2,7 @@
   <img src="https://github.com/SystemArchitecture-ProPlat/Proplat_Back/assets/127479677/d8203294-a4ea-4dc1-a10e-10882661971c" width="40%" height="50%">
 </p>
 <p align="center">
-  IT Side Projcet Clubs & Project Team Recruitment<br/>
+  IT Side Project Clubs & Project Team Recruitment<br/>
   ProPlat<br/>
 </p>
 
